@@ -1,0 +1,412 @@
+@media screen and(min-width: 480px)and (max-width: 640px){
+	nav ul{
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+
+	}
+}
+@media screen and (min-width: 641px){
+	nav ul{
+		display:flex;
+		flex-direction: row;
+	}
+
+}
+nav ul li {
+	flex:1;
+}
+
+
+body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: montserrat;
+	color:white;
+}
+header{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.main{
+	padding: 0px;
+	position: relative;
+	width: 100%;
+	height: 30vh;
+	background-image: url(../images/binary.jpg);
+	background-position:  center;
+}
+.page{
+	background-size:cover;
+}
+
+ nav{
+ 	padding: 5px;
+ 	margin-left: 0px;
+ 	background-color:#000000;
+ 	opacity: 0.5;
+ }
+ nav ul{
+	position: relative;
+	margin:0;
+	padding: 10px;
+	display: flex;
+	float: right;
+	transition: .5s;
+}
+ nav ul li{
+	list-style: none;
+}
+ nav ul li a{
+	position: relative;
+	display: block;
+	padding: 10px 10px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition:.5s;
+}
+ nav ul li a:hover{
+	background:white;
+	color: black;
+
+}
+
+
+.menu,.heading,.first{
+	font-family: montserrat;
+	margin:0px;
+	margin-left: 450px;
+	color: red;
+	font-size: 30px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+	position: center;
+
+}
+
+
+.task{
+text-align: center;
+font-size: 25px;
+width: 100%;
+margin-top: 30px;
+color: white;
+margin: 0px;
+}
+.title{
+	color: white;
+	padding: 0;
+	width: 100%;
+	margin:0px;
+	position: center;
+	text-align: center;
+}
+
+
+
+.box1,.box2,.box3,.box4{
+border:2px solid black;
+border-collapse:collapse;
+margin-bottom:0px;
+position: center;
+width: 100%;
+text-align:center;
+background-color: #000000;
+}
+
+.skin{
+background: #FFF;
+color:white;
+width: 100%;
+}
+h3{
+	text-align: left;
+	color: #000000;
+	width: 100%;
+
+}
+
+
+.services{
+/*column-count: 2*/
+column-width: 80vh;
+text-align:center;
+width: 100%;
+
+}
+.dev{
+background: white;
+color:lightblue;
+}
+
+.mart{
+padding:2px;
+}
+
+.devices{
+	float: initial;
+	text-align: center;
+	height: 350px;
+	width: 100%;
+}
+
+.new{
+	background: #4169E1;
+	padding:2px;
+}
+content{
+	width: 100%;
+}
+
+
+
+
+/*second page, company*/
+
+article{
+	padding: 0px;
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows:1fr ;
+	column-gap:20px;
+	width: 100%;
+	margin:0px;
+	text-align: center;
+	margin-top: 50px;
+	position: center;
+
+}
+
+.describe,.vision,.compan{
+
+	font-size: 20px;
+	width: 100%;
+	margin-top:50px;
+	border:2px solid black;
+	color:#00008B;
+	padding: 0px;
+	margin:0px;
+	border-image-width: 100%;
+}
+	
+.values{
+	
+	display: grid;
+	grid-template-columns: 1fr ;
+	border-image-width: 100%;
+	column-gap:100px;
+	text-align:center;
+	font-size: 20px;
+	margin:0px;
+	position: center;
+
+}
+.config{
+	background: rgba(0,206,209);
+	color:#00008B;
+	border:2px solid black;
+	width: 100%;
+	height: auto;
+
+
+
+}
+#mis{
+	height: 95px;
+	width: 100%;
+	border-top: 100px;
+	position: relative;
+}
+.related{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr  ;
+	grid-template-rows: 1fr  1fr 1fr 1fr;
+	border-image-width: 70%;
+	background-color: rgba(81,185,220,0.4);
+	border:3px solid rgba(79,185,220,0.3);
+	padding: 0px;
+	color:red;
+}
+.sidebar{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 1fr   ;
+	border-image-width: 70%;
+	background-color: rgba(81,185,220,0.4);
+	border:3px solid rgba(79,185,220,0.3);
+	padding: 10px;
+	top: 200px;
+	color: red;
+
+}
+/*Third page Products*/
+
+.container{
+	width: 100%;
+	margin-top: 10%;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+.container h2{
+	background: #0062CC;
+	color: #fff;
+	width: 200px;
+	font-size: 24px;
+	padding: 5px;
+	height: 40px;
+}
+.container h2::after{
+	content: '';
+	border-top: 40px solid #0062CC;
+	border-right: 40px solid transparent;
+	pointer-events: relative;
+	left: 48px;
+	top: 34px;
+}
+.row{
+	margin-top: 30px;
+}
+
+.product-bottm .fa{
+	color: #28a745;
+	font-size: 10px;
+}
+.product-bottm h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+.product-bottm h5{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.overlay{
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width: 70px;
+}
+.product-top:hover .overlay{
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+.overlay .fa{
+	cursor: pointer;
+	background-color: white;
+	color: #000;
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	padding: 7px;
+	margin: 5%;
+	margin-bottom: 5%;
+
+}
+.overlay .butn-sell{
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+/* Four page contact*/
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: montserrat;
+	color:#1c1c1c;
+}
+
+form{
+ 	font-size: 16px;
+ 	background: #CCC;
+ 	max-width: 500px;
+ 	margin: 0 auto;
+ 	padding: 0 10px 10px 10px;
+
+ }
+
+h1{text-align: center;
+ 	color:#333;
+
+ }
+input, textarea{
+ 	width: 470px;
+ 	padding: 10px;
+
+ }
+
+ .send input{
+ 	background: #069;
+ 	height: 40px;
+ 	width: 150px;
+ 	font-weight: bold;
+ 	border-radius: 5px;
+ 	border: 1px solid
+ 	color:#fff;
+ 	cursor: pointer;
+ }
+.send input: hover{
+ 	background: #078;
+
+ }
+textarea{
+ 	width: 470px;
+ 	height: 120px;
+ 	line-height: 20px;
+ }
+/*five page Login*/
+
+
+
+@app.route{('/')
+def hello():
+    return render_template("login.html",name="Marcilino")
+}
+@app.route{('/login',methods=["post"])
+def loginmethod():
+    user=request.form["username"]
+    passw=request.form["password"]}
+    
+
+.login, .user, .name{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.login{
+	text-align: center;
+	
+}
+.user{
+	color: #fff;
+}
+.name{
+	font-size: 20px;
+}
+ h4{
+	color: black;
+	margin-top: 200px;
+	width: 100%;
+	margin-left: 600px;
+}
+
+ h2{
+	color: red;
+	margin-top: 300px;
+	width: 100%;
+	margin-left: 550px;
+}
+form {
+	margin-top: 30px;
+	width: 100%;
+}
